@@ -13,8 +13,10 @@ def handle_response(message, author) -> str:
     
     #Current Todo
     if (m_ == "todo list"):
-        with open("data.json") as f:
+        print("working")
+        with open("C:\\Users\\User\\Documents\\GitHub\\DiscordBot\\Discord-Bot\\data.json") as f:
             data = json.load(f)
+            return data
             for date in data:
                 if date["date"] == curr_date:
                     return ", ".join(date["entries"])
