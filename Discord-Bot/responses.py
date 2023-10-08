@@ -14,7 +14,7 @@ def handle_response(message, author) -> str:
     #Current Todo
     if (m_ == "todo list"):
         print("working")
-        with open("C:\\Users\\User\\Documents\\GitHub\\DiscordBot\\Discord-Bot\\data.json") as f:
+        with open("data.json") as f:
             data = json.load(f)
             return data
             for date in data:
@@ -26,7 +26,7 @@ def handle_response(message, author) -> str:
         add = m_[9:]
 
         #Reading data
-        with open("data.json") as f:
+        with open("\.data.json") as f:
             data = json.load(f)
             
         #Modifying data
