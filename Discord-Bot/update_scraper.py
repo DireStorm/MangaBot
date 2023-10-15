@@ -70,10 +70,10 @@ def get_latest_release(name):
         m_name = m_name[m_name.find("<title>")+len("<title>"):m_name.find(" -")]
         # m_name = desired_result[desired_result.find("<i>")+len("<i>"):desired_result.find("</i>")]
 
-        print(f"\n\n\n{m_name} was last updated {latest_release}!")
+        return f"{m_name} was last updated {latest_release}!"
 
     except AttributeError: 
-        print("There haven't been any new releases as of yet!")
+        return "There haven't been any new releases as of yet!"
 
 def get_bayesian_score(name):
     desired_input = "+".join(name.split(" "))
@@ -101,4 +101,3 @@ def get_bayesian_score(name):
     return score
 
 
-name = input("Enter a manhwa/manga: ")
