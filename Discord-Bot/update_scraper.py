@@ -34,7 +34,6 @@ def get_name(name):
     return m_name    
 
 def get_latest_release(name):
-    
     desired_input = "+".join(name.split(" "))
     url = "https://www.mangaupdates.com/search.html?search="+desired_input
     search_page = get_html(url)
@@ -92,12 +91,9 @@ def get_bayesian_score(name):
     # [starting index: ending index]
     desired_url = desired_result[desired_result.find("href='")+len("href='"):desired_result.find("' alt")]
 
-
     m_page = get_html(desired_url)
     
     result = re.search("Average:.*<span class='d-none d-sm-inline'>", m_page, re.IGNORECASE).group()
-    score = result[result.find("Average:")+len("Average:"):result.find("<")]
+    score = result[result.find("Bayesian Average: <b>") + len("Bayesian Average: <b>"):result.find("</b><span class='d-none d-sm-inline'>")]
     
     return score
-
-
