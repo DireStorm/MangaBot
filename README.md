@@ -8,7 +8,6 @@ This project started due to my interest in manga and manhwa and the struggle I h
 + [Python](https://www.python.org/doc/)
 + [Discord API](https://discord.com/developers/docs/reference)
 
-
 ## Overview
 ### In Use
 ![MangaBot-1](https://github.com/user-attachments/assets/05cb1a48-7e93-485d-905a-509c50bdbfc1)
