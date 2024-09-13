@@ -10,4 +10,5 @@ This project started due to my interest in manga and manhwa and the struggle I h
 
 
 ## Overview
-![MangaBot-1](https://github.com/user-attachments/assets/d8fc0653-34f2-4a01-b96c-85bc042fbcf3)
+> Manga Bot in use
+![MangaBot-1](https://github.com/user-attachments/assets/05f5ee29-23dc-4b42-9484-b03e003602a6)
