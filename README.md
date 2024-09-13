@@ -10,5 +10,8 @@ This project started due to my interest in manga and manhwa and the struggle I h
 
 
 ## Overview
-Manga Bot in use
+### In Use
 ![MangaBot-1](https://github.com/user-attachments/assets/05cb1a48-7e93-485d-905a-509c50bdbfc1)
+
+# Future Updates
++ Convert to REST API that scrapes [manga/manhwa website](https://www.mangaupdates.com/) every day and gets data from REST API for discord bot
