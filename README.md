@@ -11,4 +11,4 @@ This project started due to my interest in manga and manhwa and the struggle I h
 
 ## Overview
 > Manga Bot in use
-<img align="right" width="100" height="100" src="[https://picsum.photos/100/100](https://github.com/user-attachments/assets/05f5ee29-23dc-4b42-9484-b03e003602a6)">
+<img align="right" width="100" height="100" src="https://picsum.photos/100/100](https://github.com/user-attachments/assets/05f5ee29-23dc-4b42-9484-b03e003602a6">
